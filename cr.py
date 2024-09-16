@@ -5,7 +5,8 @@ import torch.optim as optim
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv(r'C:\Users\Ayush\OneDrive\Desktop\AI-search-algo\ai-project\datasets\Crop_recommendation.csv')
+df = pd.read_csv('datasets/Crop_recommendation.csv')
+
 
 df = df.dropna()
 

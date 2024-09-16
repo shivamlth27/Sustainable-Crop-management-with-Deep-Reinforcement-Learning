@@ -62,7 +62,8 @@ class DQNAgent:
 
 
 import pandas as pd
-df= pd.read_csv(r'C:\Users\Ayush\OneDrive\Desktop\AI-search-algo\ai-project\datasets\fertilizer_recommendation.csv')
+df = pd.read_csv('datasets/fertilizer_recommendation.csv')
+
 
 crop_mapping = {'Maize': 1, 'Paddy': 0, 'Sugarcane': 2, 'Cotton': 3, 'Tobacco': 4, 'Barley': 5, 'Wheat': 6, 'Millets': 7}
 soil_mapping = {'Sandy': 0, 'Loamy': 1, 'Black': 2, 'Red': 3, 'Clayey': 4}

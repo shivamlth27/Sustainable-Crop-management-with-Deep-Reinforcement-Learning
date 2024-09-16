@@ -1,4 +1,8 @@
+flask
 torch
-sklearn
+scikit-learn
 tqdm
+matplotlib
+pandas
+flask_cors
 gym
