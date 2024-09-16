@@ -6,3 +6,4 @@ matplotlib
 pandas
 flask_cors
 gym
+gunicorn
