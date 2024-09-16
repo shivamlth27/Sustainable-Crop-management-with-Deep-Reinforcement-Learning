@@ -106,7 +106,7 @@
         document.getElementById('fertilizerForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent default form submission
             let formData = new FormData(this); // Collect form data
-            fetch('http://localhost:5001/submit_form', { // Adjust URL based on your Flask server address
+            fetch('https://sustainable-crop-management-with-deep.onrender.com/submit_form', { // Adjust URL based on your Flask server address
                 method: 'POST',
                 body: formData
             })

@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let formData = new FormData(this); // Collect form data
         let jsonData = {};
         formData.forEach((value, key) => { jsonData[key] = value });
-        fetch('http://localhost:5001/predict_crop', {
+        fetch('https://sustainable-crop-management-with-deep.onrender.com/predict_crop', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json' // Set the Content-Type header to JSON
